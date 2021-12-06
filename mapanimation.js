@@ -22,7 +22,7 @@ const busStops = [
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-72.99216106049974,40.88443688669096],
-    zoom: 14,
+    zoom: 12,
   });
   
   //Marker added to the map at the first coordinates in the array busStops. The marker variable is named "marker"
@@ -36,7 +36,7 @@ const busStops = [
       marker.setLngLat(busStops[counter]);
       counter++;
       move();
-   }, 1000);
+   }, 1500);
   }
   
   
