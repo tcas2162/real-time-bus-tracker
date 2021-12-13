@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 #map {
   position: absolute;
   top: 0;
@@ -28,6 +33,7 @@ body {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 .button:hover {
